@@ -36,7 +36,8 @@
 
 #include "../core/macros.h"
 #include "../core/boards.h"
-#include "../../Configuration.h"
+// #include "../../Configuration.h"
+#include "../../../config/examples/Creality/Ender-3/CrealityV427/Configuration.h"
 
 #ifdef CUSTOM_VERSION_FILE
   #if __has_include(STRINGIFY(../../CUSTOM_VERSION_FILE))
